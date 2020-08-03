@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      img{
+          object-fit: cover;
+      }
+  </style>
+</head>
+<body>
+  <h2>HTML Img tag</h2>
+  <img src="images/image-01.jpg" alt="" width="370px">
+  <img src="images/image-02.jpg" alt="" width="370px">
+  <img src="images/image-03.jpg" alt="" width="370px">
+  <h2>Image height and width</h2>
+  <img src="images/image-01.jpg" alt="" height="230px" width="370px">
+  <img src="images/image-02.jpg" alt="" height="230px" width="370px">
+  <img src="images/image-03.jpg" alt="" height="230px" width="370px">
+  <hr>
+  <br>
+  <p>
+    Did you notice? With the height and width changed or set to a fixed size, the quality of the images has fallen
+    instantly. The images have been stretched because of the proportion was not exactly the same as the original images had.
+    <br>
+    If you want to give all the images a fixed width, without losing the quality and proportion then the best way would base
+    putting the images inside separate divs. Set the divs height and width.
+    <br>
+    An alternative way could also be setting height and width of the images. And apply a CSS3 property called "object-fit" and
+    and set its value to "cover". The images will not lose its quality and size.
+  </p>
+  <br>
+</body>
+</html>
